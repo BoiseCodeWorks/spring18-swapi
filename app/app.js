@@ -7,4 +7,4 @@ var app = {
   }
 };
 console.log("end");
-//fix that bug
+//fix that thing
