@@ -7,3 +7,4 @@ var app = {
   }
 };
 console.log("end");
+//fix that bug
