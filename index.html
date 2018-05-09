@@ -43,6 +43,15 @@
     </div>
   </section>
 
+  <section>
+    <h1>Dragon Stuff</h1>
+    <button onclick="app.controllers.dragonController.getGames()">Show Games</button>
+    <div id="games"></div>
+    <div id="active-game">
+      
+    </div>
+  </section>
+
 
 
   <!-- EXTERNAL LIBRARIES -->
@@ -50,11 +59,13 @@
   <!-- SERVICES -->
   <script src="app/swapi-service.js"></script>
   <script src="app/dnd-service.js"></script>
+  <script src="app/dragon-service.js"></script>
 
   <!-- CONTROLLERS -->
   <script src="app/swapi-controller.js"></script>
   <script src="app/races-controller.js"></script>
   <script src="app/classes-controller.js"></script>
+  <script src="app/dragon-controller.js"></script>
 
   <!-- INIT APP -->
   <script src="app/app.js"></script>
